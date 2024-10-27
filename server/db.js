@@ -16,7 +16,8 @@ await mongoose
         console.log("Connected to database successfully.");
     })
     .catch((error) => {
-        console.error("Error connecting to database. Reason:", error);
+        console.error("Error connecting to database. Reason:");
+        console.log(error);
     });
 
 export default connection;
