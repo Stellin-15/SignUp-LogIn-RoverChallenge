@@ -1,5 +1,7 @@
-const mongoose = require("mongoose");
+import mongoose from "mongoose";
 
+
+// TODO: What is this supposed to do, bro?
 const connectionParams = {
     useNewurlParser: true,
     useUnifiedTopology: true,
