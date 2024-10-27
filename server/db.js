@@ -10,7 +10,7 @@ const connectionParams = {
 /** @type {mongoose.Mongoose | null} */
 var connection = null;
 await mongoose
-    .connect(process.env.DB_URL || "")
+    .connect(process.env.MONGODB_URL || "")
     .then((conn) => {
         connection = conn;
         console.log("Connected to database successfully.");
